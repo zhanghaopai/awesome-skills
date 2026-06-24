@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Local Commit"
+  short_description: "根据对话和实际改动静默本地提交"
+  default_prompt: "Use $git-local-commit to submit the latest uncommitted changes locally with a message based on this conversation and the actual Git diff."
