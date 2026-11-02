@@ -1,6 +1,26 @@
 # 开始
 
-> 推荐使用项目级别的skill
+> 推荐使用的skill
+
+
+## 全局配置
+### claude code
+```txt
+~/.claude/
+├── CLAUDE.md
+├── rules/
+│   ├── architecture.md
+│   └── clean-code.md
+└── skills/
+    └── architecture-review/
+        └── SKILL.md
+```
+
+### codex
+```txt
+
+```
+
 
 ## 项目级别
 

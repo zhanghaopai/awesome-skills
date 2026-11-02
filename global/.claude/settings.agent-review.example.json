@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "Review the significant code changes for this task. Inspect actual files and relevant interfaces, check SRP/OCP/DIP, God Classes, bad module coupling and unjustified abstractions. Block only for concrete substantial new violations, citing file and evidence; do not block solely on file length or for an unchanged pre-existing issue. If stop_hook_active=true, allow completion to avoid review loops. Reply ok=true when acceptable, or ok=false with concise reason. Hook context: $ARGUMENTS",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
